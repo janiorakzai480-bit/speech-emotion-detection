@@ -1,6 +1,6 @@
 # One-Page Report - Speech Emotion Detection
 
-**Candidate:** <SajidRehman>  |  **Links:** GitHub <https://github.com/janiorakzai480-bit/speech-emotion-detection> | Dashboard <https://speech-emotion-detection-bladsbyyqyhhcpe7uspxtk.streamlit.app/>
+**Candidate:** SajidRehman  |  **Links:** GitHub https://github.com/janiorakzai480-bit/speech-emotion-detection| Dashboard https://speech-emotion-detection-bladsbyyqyhhcpe7uspxtk.streamlit.app/
 
 ## What I did
 I used RAVDESS speech clips and kept 4 emotions (672 clips; neutral has 96, the others 192 each). I extracted the mean and standard deviation of 40 MFCCs per clip with librosa. I split by actor: actors 1-18 for training (504 clips) and actors 19-24 for testing (168 clips), so the model is tested on unseen voices. I trained an SVM and a Random Forest with balanced class weights and chose the better one with GroupKFold on the training actors (SVM 0.476, Random Forest 0.494 macro F1). I then built a Streamlit dashboard with an upload and prediction page (probability bars and waveform) and a results page.
