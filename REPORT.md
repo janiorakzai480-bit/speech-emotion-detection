@@ -14,5 +14,5 @@ The model recognises angry best (39 of 48 correct) because angry speech is loud 
 ## What I would improve with more time
 -  Neutral is the main weakness, so I would add more neutral data or augmentation (noise, pitch shift, time stretch).
 - Add more features (delta MFCC, pitch, energy) or pretrained audio embeddings such as wav2vec2 or HuBERT.
-- ross-validate across all 24 actors for a more stable estimate, and test on real call-centre audio.
+- Cross-validate across all 24 actors for a more stable estimate, and test on real call-centre audio.
 - Train the CNN on mel spectrograms and compare it with this model.
