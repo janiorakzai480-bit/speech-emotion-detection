@@ -2,7 +2,7 @@
 
 Predicts **angry / happy / sad / neutral** from short speech clips. Built for the Hexovate AI/ML internship assessment (Task 3).
 
-**Live dashboard:** PASTE_YOUR_STREAMLIT_LINK
+**Live dashboard:** https://speech-emotion-detection-bladsbyyqyhhcpe7uspxtk.streamlit.app/
 
 ## Data
 RAVDESS speech audio, 4 emotions only: 672 clips (192 angry, 192 happy, 192 sad, 96 neutral).
